@@ -9,10 +9,10 @@ float FarentoCelsius(float farenheit)
 int main()
 {
     float farenTemp;
-    cout << "Enter your degree in Farenheit" << endl;
+    cout << "Enter your degrees in Farenheit" << endl;
     cin >> farenTemp;
     float celsiusTemp = FarentoCelsius(farenTemp);
-    cout << "Your degrees in celsius is " + farenTemp + "." << endl;
+    cout << "Your degrees in celsius is " << farenTemp << endl;
     return 0;
 
 }
